@@ -20,9 +20,9 @@
 #define		G_CC_MARIO_NORMAL			 0,		 0,			  0, SHADE,  0,0,0,ENVIRONMENT
 
 #define	SCALE	4
-#define LIGHT_X 40
-#define LIGHT_Y 40
-#define LIGHT_Z 40
+#define LIGHT_X 0
+#define LIGHT_Y 0
+#define LIGHT_Z 127
 #define ShapeColor_mario(R,G,B) {{R/SCALE ,G/SCALE ,B/SCALE ,0 ,R/SCALE ,G/SCALE ,B/SCALE ,0 },{ R, G, B, 0, R, G, B, 0, LIGHT_X, LIGHT_Y, LIGHT_Z, 0}}
 
 static Lights1	light_mario[] = {
