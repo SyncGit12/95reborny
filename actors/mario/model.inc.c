@@ -1,4 +1,4 @@
-// Mario
+// Beta Mario
 
 #define	gs_Tani_LoadTextureImage2(timg, fmt, siz, width, height, tmem, ttdn)		\
 																					\
