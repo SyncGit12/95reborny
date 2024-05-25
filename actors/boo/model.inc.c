@@ -1,4 +1,5 @@
 // Boo
+// AAAAAHH!!!! That scared me.
 
 // 0x05009B28
 static const Lights1 boo_seg5_lights_05009B28 = gdSPDefLights1(
