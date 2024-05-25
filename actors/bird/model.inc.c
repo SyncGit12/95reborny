@@ -1,4 +1,4 @@
-// Birds
+// *Windows 11
 
 // 0x05000000
 static const Lights1 birds_seg5_lights_05000000 = gdSPDefLights1(
