@@ -1,4 +1,4 @@
-// Door
+// Door model. texture is Render96 by the B-Roll footage
 
 // 0x03009CE0
 static const Lights1 door_seg3_lights_03009CE0 = gdSPDefLights1(
