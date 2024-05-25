@@ -26,7 +26,7 @@ const struct DialogEntry *const seg2_dialog_table[] = {
 // == courses ==
 // (defines en_course_name_table etc.)
 // The game duplicates this in levels/menu/leveldata.c in EU, so we split
-// it out into a separate include file.
+// it out into a separate include file. Howdy!
 
 #define COURSE_TABLE seg2_course_name_table
 #include "define_courses.inc.c"
