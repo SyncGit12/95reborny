@@ -75,7 +75,7 @@ distributions with support in the makefile, and examples of distros that offer t
 * `mips-linux-gnu-` (Ubuntu and other Debian-based distros)
 * `mips64-linux-gnu-` (RHEL/CentOS/Fedora)
 
-You may also use [Docker](#docker-installation) to handle installing an image with minimal dependencies.
+You may also use [Artix](https://artixlinux.org/) to handle installing an image with minimal dependencies.
 
 #### Step 2: Copy baserom(s) for asset extraction
 
