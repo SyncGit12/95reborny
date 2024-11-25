@@ -1,5 +1,3 @@
 # 95Reborn
 
-Goodbye.
-
-This project has been canceled.
+After VS Nothing, i will work on this again.
