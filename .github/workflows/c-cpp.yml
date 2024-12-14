@@ -14,10 +14,14 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: configure
-      run: ./configure
+      run: |
+        sudo apt install -y binutils-mips-linux-gnu build-essential git pkgconf python3
     - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+      run: |
+        wget https://github.com/jb1361/Super-Mario-64-AI/blob/development/Super%20Mario%2064%20(USA).z64 baserom.us.z64
+        make VERSION=us -j6
+    - name: upload artifact
+      uses: actions/upload-artifact@v4.3.3
+      with:
+        name: sm64.z64
+        path: build/us/sm64.us.z64
