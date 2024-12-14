@@ -18,7 +18,7 @@ jobs:
         sudo apt install -y binutils-mips-linux-gnu build-essential git pkgconf python3
     - name: make
       run: |
-        wget https://github.com/SyncGit12/VsWhittyArchive/blob/main/baserom.z64 baserom.us.z64
+        wget https://github.com/SyncGit12/VsWhittyArchive/blob/main/baserom.us.z64
         make VERSION=us -j6
     - name: upload artifact
       uses: actions/upload-artifact@v4.3.3
